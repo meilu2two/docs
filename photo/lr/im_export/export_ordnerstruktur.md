@@ -32,16 +32,16 @@
 
 ### Export-Einstellungen Lightroom
 
-|                     |                                         |                     |
-| :------------------ | :-------------------------------------- | :------------------ |
-| 0K_480              | JPG Qualitaet 92 oder Dateigroesse 600k | Kurze Kante  480 px |
-| 1K_720              | JPG Qualitaet 92 oder Dateigroesse 700k | Kurze Kante  720 px |
-| 2K_1080             | JPG Qualitaet 92 oder Dateigroesse 800k | Kurze Kante 1080 px |
-| 4K_2160             | JPG Qualitaet 92                        | Kurze Kante 2160 px |
-| 4K_fs900            | Dateigroesse 900k                       | Kurze Kante 2160 px |
-| 8K_4320             | JPG Qualitaet 92                        | Kurze Kante 4320 px |
-| 8K_fs1500           | Dateigroesse 1500k                      | Kurze Kante 4320 px |
-| Original_Aufloesung | JPG Qualitaet 92                        |                     |
+| Ordnername                | Qualitaetseinstellung                   | Abmessung           |
+| :------------------------ | :-------------------------------------- | :------------------ |
+| `../0K_480/`              | JPG Qualitaet 92 oder Dateigroesse 600k | Kurze Kante  480 px |
+| `../1K_720/`              | JPG Qualitaet 92 oder Dateigroesse 700k | Kurze Kante  720 px |
+| `../2K_1080/`             | JPG Qualitaet 92 oder Dateigroesse 800k | Kurze Kante 1080 px |
+| `../4K_2160/`             | JPG Qualitaet 92                        | Kurze Kante 2160 px |
+| `../4K_fs900/`            | Dateigroesse 900k                       | Kurze Kante 2160 px |
+| `../8K_4320/`             | JPG Qualitaet 92                        | Kurze Kante 4320 px |
+| `../8K_fs1500/`           | Dateigroesse 1500k                      | Kurze Kante 4320 px |
+| `../Original_Aufloesung/` | JPG Qualitaet 92                        |                     |
 
 -----
 
