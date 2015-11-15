@@ -7,7 +7,7 @@
 `../4K_2160/`  
 `../4K_fs900/`  
 `../6K_3240/`  
-`../6K_fs1700/`  
+`../6K_fs1500/`  
 `../8K_4320/`  
 `../8K_fs2500/`  
 `../Original_Aufloesung/`
@@ -47,22 +47,22 @@
 | `../4K_2160/`             | JPG Qualitaet 92                        | Kurze Kante 2160 px |
 | `../4K_fs900/`            | Dateigroesse 900k                       | Kurze Kante 2160 px |
 | `../6K_3240/`             | JPG Qualitaet 92                        | Kurze Kante 3240 px |
-| `../6K_fs1700/`           | Dateigroesse 1700k                      | Kurze Kante 3240 px |
+| `../6K_fs1500/`           | Dateigroesse 1500k                      | Kurze Kante 3240 px |
 | `../8K_4320/`             | JPG Qualitaet 92                        | Kurze Kante 4320 px |
 | `../8K_fs2500/`           | Dateigroesse 2500k                      | Kurze Kante 4320 px |
-| `../Original_Aufloesung/` | JPG Qualitaet 92                        |                     |
+| `../Original_Aufloesung/` | JPG Qualitaet 92 - 100                  |                     |
 
 -----
 
-### fs-Formate als guter Kompromiss aus Bildqualitaet und Dateigroesse
+### fs-Formate als sehr guter Kompromiss aus Bildqualitaet und Dateigroesse
 
 **4K_fs900:** Maximale Dateigroesse (file size / file sharing) entspricht 900 kB,
 die durchschnittliche Dateigroesse kommt dann auf ca. 700 - 800 kB, auf einem TB 
 koennen so ca. 1,33 Mio Fotos abgelegt werden.
 
-**6K_fs1700:** Maximale Dateigroesse (file size / file sharing) entspricht 
-1700 kB, die durchschnittliche Dateigroesse kommt dann auf ca. 1,4 MB, auf 
-einem TB koennen so ca. 0,71 Mio Fotos abgelegt werden.
+**6K_fs1500:** Maximale Dateigroesse (file size / file sharing) entspricht 
+1500 kB, die durchschnittliche Dateigroesse kommt dann auf ca. 1,3 MB, auf 
+einem TB koennen so ca. 0,77 Mio Fotos abgelegt werden.
 
 **8K_fs2500:** Maximale Dateigroesse (file size / file sharing) entspricht 
 2500 kB, die durchschnittliche Dateigroesse kommt dann auf ca. 2,2 MB, auf 
