@@ -1,22 +1,24 @@
 ## Export Ordnerstruktur
 
 ### Ordner auf dem Dateisystem
-`../0K_480/`  
-`../1K_720/`  
-`../2K_1080/`  
-`../4K_2160/`  
-`../4K_fs900/`  
-`../6K_3240/`  
-`../6K_fs1500/`  
-`../8K_4320/`  
-`../8K_fs2500/`  
-`../Original_Aufloesung/`
 
---> und evtl. fuer die Zukunft  
-`../12K_6480/`  
-`../16K_8640/`  
-`../24K_12960/`  
-`../32K_17280/`
+| Standard                  | Minimal                   | Kunde                           | Komplett                      |
+| :------------------------ | :------------------------ | :------------------------------ | :---------------------------- |
+| `../4K_fs900/`            | `../4K_fs900/`            | `../small/` (~4K_fs900)         | `../0K_480/`                  |
+| `../6K_fs1500/`           | `../Original_Resolution/` | `../high_quality/` (~8K_hq4320) | `../1K_720/`                  |
+| `../8K_fs2500/`           |                           |                                 | `../2K_1080/`                 |
+| `../8K_hq4320/`           |                           |                                 | `../4K_hq2160/`               |
+| `../Original_Resolution/` |                           |                                 | `../4K_fs900/`                |
+|                           |                           |                                 | `../6K_hq3240/`               |
+|                           |                           |                                 | `../6K_fs1500/`               |
+|                           |                           |                                 | `../8K_hq4320/`               |
+|                           |                           |                                 | `../8K_fs2500/`               |
+|                           |                           |                                 | `../Original_Resolution/`     |
+|                           |                           |                                 | -> und evtl. fuer die Zukunft |
+|                           |                           |                                 | `../12K_6480/`                |
+|                           |                           |                                 | `../16K_8640/`                |
+|                           |                           |                                 | `../24K_12960/`               |
+|                           |                           |                                 | `../32K_17280/`               |
 
 -----
 
@@ -41,16 +43,16 @@
 
 | Ordnername                | Qualitaetseinstellung                   | Abmessung           |
 | :------------------------ | :-------------------------------------- | :------------------ |
-| `../0K_480/`              | JPG Qualitaet 92 oder Dateigroesse 600k | Kurze Kante  480 px |
-| `../1K_720/`              | JPG Qualitaet 92 oder Dateigroesse 700k | Kurze Kante  720 px |
-| `../2K_1080/`             | JPG Qualitaet 92 oder Dateigroesse 800k | Kurze Kante 1080 px |
-| `../4K_2160/`             | JPG Qualitaet 92                        | Kurze Kante 2160 px |
+| `../0K_480/`              | JPG Qualitaet 90 oder Dateigroesse 600k | Kurze Kante  480 px |
+| `../1K_720/`              | JPG Qualitaet 90 oder Dateigroesse 700k | Kurze Kante  720 px |
+| `../2K_1080/`             | JPG Qualitaet 90 oder Dateigroesse 800k | Kurze Kante 1080 px |
+| `../4K_hq2160/`           | JPG Qualitaet 90                        | Kurze Kante 2160 px |
 | `../4K_fs900/`            | Dateigroesse 900k                       | Kurze Kante 2160 px |
-| `../6K_3240/`             | JPG Qualitaet 92                        | Kurze Kante 3240 px |
+| `../6K_hq3240/`           | JPG Qualitaet 90                        | Kurze Kante 3240 px |
 | `../6K_fs1500/`           | Dateigroesse 1500k                      | Kurze Kante 3240 px |
-| `../8K_4320/`             | JPG Qualitaet 92                        | Kurze Kante 4320 px |
+| `../8K_hq4320/`           | JPG Qualitaet 90                        | Kurze Kante 4320 px |
 | `../8K_fs2500/`           | Dateigroesse 2500k                      | Kurze Kante 4320 px |
-| `../Original_Aufloesung/` | JPG Qualitaet 92 - 100                  |                     |
+| `../Original_Resolution/` | JPG Qualitaet 100                       |                     |
 
 -----
 
