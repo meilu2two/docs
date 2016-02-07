@@ -1,16 +1,8 @@
-#It's good to know *(gtk)* something about ... Linux
+#It's good to know *(gtk)* something about ... Shell
 
 <!-- This document is written in pandoc's markdown version -->
 
-##Contents:
-
-[Shell]  
-[Maintenance]  
-
----
-
-##Shell
-###Commonly used commands
+##Commonly used commands
 - `$ df -h`  
   `-h … human readable (z.B. 1K, 234M, 5G)`  
   -> disk free, verfuegbaren Festplattenplatz anzeigen
