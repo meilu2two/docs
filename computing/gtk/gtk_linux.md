@@ -1,16 +1,17 @@
-#It's good to know *(gtk)* somthing about ... Linux#
+#It's good to know *(gtk)* somthing about ... Linux
 
 <!-- This document is written in pandoc's markdown version -->
 
-##Contents:## {#chapterContents}
+##Contents:
 
 [Shell](#shell)  
 [Maintenance](#maintenance)
-
+[Git-Document](./gtk_git.md)
+[Google](https://www.google.de)
 ---
 
-##Shell## {#shell}
-###Commonly used commands### {#commands}
+##Shell
+###Commonly used commands
 - `$ df -h`  
   `-h … human readable (z.B. 1K, 234M, 5G)`  
   -> disk free, verfuegbaren Festplattenplatz anzeigen
@@ -21,71 +22,8 @@
   `suchstring … Text, nach dem gesucht wird`  
   -> Suche nach Text in Dateinamen im Dateisystem
 
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-text  
-
-
-##Maintenance## {#maintenance}
-###SSD: Automatischen Trim Befehl aktivieren###
+##Maintenance
+###SSD: Automatischen Trim Befehl aktivieren
 "Einige der grossen Linux-Distributionen informieren die SSD nicht per Trim
 ueber freigegebene Speicherbereiche ... Bei modernen Distributionen kann man
 dieses Manko durch `$ sudo systemctl enable fstrim.timer` beheben. Systemd ruft
