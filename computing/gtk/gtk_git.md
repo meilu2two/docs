@@ -1,4 +1,4 @@
-#It's good to know *(gtk)* somthing about ... Git
+#It's good to know *(gtk)* something about ... Git
 
 <!-- This document is written in pandoc's markdown version -->
 
