@@ -3,6 +3,18 @@
 <!-- This document is written in pandoc's markdown version -->
 
 ##Commonly used commands
+`$ apt-cache …` 
+`show p1` - liefert Paketbeschreibung von Paket p1 aus apt-cache
+`showpkg p1` - zeigt die Abhängigkeiten des Pakets p1 an
+`search abc` - zeigt alle Pakete aus apt-cache deren Beschreibung den String abc enthält
+		     - mit `--names-only` wird nur in den Paketnamen gesucht
+`stats` - Statistik über installierte und verfuegbare Pakete
+Vor der Nutzung von apt-cache ist es häufig sinnvoll apt-get update auszuführen, 
+da dadurch der lokale apt-cache aktualisiert wird.  
+Mit dpkg –l oder dpkg --list werden alle installierten Pakete angezeigt
+
+---
+
 `$ df -h`  
 `-h` … human readable (z.B. 1K, 234M, 5G)  
 disk free, verfuegbaren Festplattenplatz anzeigen
