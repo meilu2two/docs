@@ -1,6 +1,6 @@
-#my vim cheatsheet
+# My Vim Cheat Sheet
 
-##Normal Mode  
+## Normal Mode  
 dd ... delete current line  
        7dd ... delete 7 lines from the current  
 p ... paste after cursor  
