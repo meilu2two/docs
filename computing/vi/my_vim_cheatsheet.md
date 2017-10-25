@@ -33,3 +33,4 @@ C-w,hjkl ... move cursor to window left, below, above, right of the current wind
 :syntax off ... disable syntax highlighting  
 :set list ...  show hidden characters  
 :set nolist ... hide hidden chars  
+:set expandtab ... use spaces instead of tabs  
