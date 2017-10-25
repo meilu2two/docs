@@ -28,3 +28,8 @@ C-w,s ... split current window horizontally
 C-w,v ... split current window vertically  
 C-w,w ... cyle between open windows  
 C-w,hjkl ... move cursor to window left, below, above, right of the current window  
+### Configuration  
+:syntax on ... enable syntax highlighting  
+:syntax off ... disable syntax highlighting  
+:set list ...  show hidden characters  
+:set nolist ... hide hidden chars  
