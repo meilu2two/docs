@@ -11,6 +11,8 @@ u ... undo
 x ... delete character after cursor  
 yy ... yank current line  
 7yy ... yank 7 lines from the current  
+ZQ ... Quit without checking for changes (like :q!)  
+ZZ ... Write current file and quit  
 ### Search
 \* ... search forward word under cursor  
 \# ... search backward word under cursor  
