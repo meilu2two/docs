@@ -16,6 +16,11 @@ yy ... yank current line
 \# ... search backward word under cursor  
 /foo ... search forward word "foo"  
 ?foo ... search backward word "foo"  
+### Find In Files  
+:vimgrep /PaTtErN/ \*.c ... search "PaTtErN" in c-files  
+:vimgrep /PaTtErN/ \*\*/\*.c ... recursive search "PaTtErN" in c-files  
+:cw, :copen ... open quickfix list (shared between all windows), filled by grep, vimgrep, ...  
+:lw, :lopen ... open location list (local to the current window), filled by lgrep, lvimgrep, ...  
 ### Windows
 C-w,s ... split current window horizontally  
 C-w,v ... split current window vertically  
