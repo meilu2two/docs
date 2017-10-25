@@ -23,7 +23,7 @@ ZZ ... Write current file and quit
 :vimgrep /PaTtErN/ \*\*/\*.c ... recursive search "PaTtErN" in c-files  
 :cw, :copen ... open quickfix list (shared between all windows), filled by grep, vimgrep, ...  
 :lw, :lopen ... open location list (local to the current window), filled by lgrep, lvimgrep, ...  
-### Windows
+### Windowing
 C-w,s ... split current window horizontally  
 C-w,v ... split current window vertically  
 C-w,w ... cyle between open windows  
