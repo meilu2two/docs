@@ -36,8 +36,15 @@ C-w,hjkl ... move cursor to window left, below, above, right of the current wind
 :set expandtab ... use spaces instead of tabs  
 
 ## Insert Mode  
-### Entering Insert Mode  
+### Entering Insert Mode ...  
 i ... before cursor  
 I ... at the beginning of the line  
 a ... after cursor  
 A ... at the end of the line
+
+## Visual Mode  
+### Entering Visual Mode ...  
+v ... to select characters within a line  
+V ... to select one ore more lines  
+C-v ... to select boxes across lines  
+
