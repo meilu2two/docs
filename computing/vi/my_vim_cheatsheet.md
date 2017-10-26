@@ -34,3 +34,10 @@ C-w,hjkl ... move cursor to window left, below, above, right of the current wind
 :set list ...  show hidden characters  
 :set nolist ... hide hidden chars  
 :set expandtab ... use spaces instead of tabs  
+
+## Insert Mode  
+### Entering Insert Mode  
+i ... before cursor  
+I ... at the beginning of the line  
+a ... after cursor  
+A ... at the end of the line
