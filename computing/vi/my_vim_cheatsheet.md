@@ -8,6 +8,7 @@ hjkl ... move cursor left, down, up, right (like arrow keys)
 p ... paste after cursor  
 P ... paste before cursor  
 u ... undo  
+C-r ... redo  
 x ... delete character after cursor  
 yy ... yank current line  
 7yy ... yank 7 lines from the current  
