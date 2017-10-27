@@ -27,6 +27,7 @@ ZZ ... Write current file and quit
 ### Windowing
 C-w,s ... split current window horizontally  
 C-w,v ... split current window vertically  
+C-w,n ... split current window with new file  
 C-w,w ... cyle between open windows  
 C-w,hjkl ... move cursor to window left, below, above, right of the current window  
 ### Configuration  
