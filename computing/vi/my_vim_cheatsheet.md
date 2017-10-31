@@ -25,11 +25,11 @@ ZZ ... Write current file and quit
 :cw, :copen ... open quickfix list (shared between all windows), filled by grep, vimgrep, ...  
 :lw, :lopen ... open location list (local to the current window), filled by lgrep, lvimgrep, ...  
 ### Find And Replace  
-:s/foo/bar/g ... replace each "foo" with "bar" in current line  
-:%s/foo/bar/g ... replace each "foo" with "bar" in all lines  
-:%s/foo/bar/gc ... replace each "foo" with "bar", ask for confirmation first  
-:5,12s/foo/bar/g ...	replace each "foo" with "bar" from line 5 to line 12  
-:s, :su, :substitude --> for more information use help with ":h :s" 
+`:s/foo/bar/g` ... replace each "foo" with "bar" in current line  
+`:%s/foo/bar/g` ... replace each "foo" with "bar" in all lines  
+`:%s/foo/bar/gc` ... replace each "foo" with "bar", ask for confirmation first  
+`:5,12s/foo/bar/g` ...	replace each "foo" with "bar" from line 5 to line 12  
+`:s, :su, :substitude` --> for more information use help with ":h :s" 
 ### Windowing
 C-w,s ... split current window horizontally  
 C-w,v ... split current window vertically  
