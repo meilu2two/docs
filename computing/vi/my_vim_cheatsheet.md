@@ -14,7 +14,12 @@
 `7yy` ... yank 7 lines from the current  
 `ZQ` ... Quit without checking for changes (like :q!)  
 `ZZ` ... Write current file and quit  
-### Search  
+### Indention  
+`>>` ... indent current line  
+`<<` ... reverse-indent current line  
+`7>>` ... indent 7 lines from current  
+`7<<` ... reverse-indent 7 lines from current  
+### Search  
 `\*` ... search forward word under cursor  
 `\#` ... search backward word under cursor  
 `/foo` ... search forward word "foo"  
