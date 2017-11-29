@@ -44,6 +44,8 @@
 ### Configuration  
 `:syntax on` ... enable syntax highlighting  
 `:syntax off` ... disable syntax highlighting  
+`:set number` ...  show line numbers  
+`:set nonumber` ... hide line numbers  
 `:set list` ...  show hidden characters  
 `:set nolist` ... hide hidden chars  
 `:set expandtab` ... use spaces instead of tabs  
