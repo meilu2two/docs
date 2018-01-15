@@ -61,4 +61,6 @@
 ### Entering Visual Mode ...  
 `v` ... to select characters within a line  
 `V` ... to select one ore more lines  
-`C-v` ... to select boxes across lines  
+`C-v` ... to select boxes across lines  
+`vaB` ... select current {}-block  
+`vab` ... select current ()-Block  
