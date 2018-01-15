@@ -38,7 +38,7 @@
 ### Using Multiple Files  
 `:e FiLeNaMe` ... edit an change to file "FiLeNaMe"  
 `:e#` ... go back to last file  
-`:e .` show content of current directory  
+`:e .` ... show content of current directory  
 `gf` ... goto file under cursor  
 `C-w,gf` ... goto file under cursor in new tab  
 ### Windowing  
