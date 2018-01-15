@@ -14,7 +14,7 @@
 `7yy` ... yank 7 lines from the current  
 `ZQ` ... Quit without checking for changes (like :q!)  
 `ZZ` ... Write current file and quit  
-### Indention  
+### Indentation  
 `>>` ... indent current line  
 `<<` ... reverse-indent current line  
 `7>>` ... indent 7 lines from current  
