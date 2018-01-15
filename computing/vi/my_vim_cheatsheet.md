@@ -54,8 +54,9 @@
 `:set nonumber` ... hide line numbers  
 `:set list` ...  show hidden characters  
 `:set nolist` ... hide hidden chars  
+`:set tabstop=4` ... replace tab with 4 spaces  
+`:set shiftwidth=4` ... indentation with 4 spaces  
 `:set expandtab` ... use spaces instead of tabs  
-
 ## Insert Mode  
 ### Entering Insert Mode ...  
 `i` ... before cursor  
