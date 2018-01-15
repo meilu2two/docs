@@ -34,8 +34,14 @@
 `:%s/foo/bar/g` ... replace each "foo" with "bar" in all lines  
 `:%s/foo/bar/gc` ... replace each "foo" with "bar", ask for confirmation first  
 `:5,12s/foo/bar/g` ...	replace each "foo" with "bar" from line 5 to line 12  
-`:s, :su, :substitude` --> for more information use help with ":h :s"  
-### Windowing  
+`:s, :su, :substitude` --> for more information use help with ":h :s"  
+### Using Multiple Files  
+`:e FiLeNaMe` ... edit an change to file "FiLeNaMe"  
+`:e#` ... go back to last file  
+`:e .` show content of current directory  
+`gf` ... goto file under cursor  
+`C-w,gf` ... goto file under cursor in new tab  
+### Windowing  
 `C-w,s` ... split current window horizontally  
 `C-w,v` ... split current window vertically  
 `C-w,n` ... split current window with new file  
